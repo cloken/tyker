@@ -1,0 +1,10 @@
+{
+  "name": "tyker",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/cloken/tyker",
+  "ignore": [
+    "**/.*"
+  ]
+}
