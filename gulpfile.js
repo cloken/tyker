@@ -5,6 +5,9 @@ gulp.task('serve', function () {
   browserSync.init({
     server: {
       baseDir: ['./docs', './src'],
+      routes: {
+        '/node_modules': 'node_modules',
+      },
     },
   });
 });

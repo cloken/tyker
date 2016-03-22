@@ -17,5 +17,8 @@
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "normalize.css": "^4.0.0"
   }
 }
