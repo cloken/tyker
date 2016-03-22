@@ -1,0 +1,17 @@
+{
+  "name": "tyker",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloken/tyker.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloken/tyker/issues"
+  },
+  "homepage": "https://github.com/cloken/tyker#readme"
+}
