@@ -1,3 +1,20 @@
 /**
  * Tyker
  */
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+  font-size: 16rem;
+  font-weight: 700;
+  letter-spacing: -.5rem;
+  margin: 0;
+}
