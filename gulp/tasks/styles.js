@@ -1,3 +1,5 @@
+import config from '../config';
+
 import gulp from 'gulp';
 import sass from 'gulp-sass';
 import browserSync from 'browser-sync';
@@ -5,9 +7,9 @@ import browserSync from 'browser-sync';
 let reload = browserSync.reload;
 
 gulp.task('styles', () => {
-  gulp.src('src/styles/*.scss')
+  gulp.src(config.styles.src)
     .pipe(sass())
-    .pipe(gulp.dest('tmp/styles'))
+    .pipe(gulp.dest(config.styles.dest))
     .pipe(reload({
       stream: true,
     }));
