@@ -1,0 +1,37 @@
+/**
+ * Reboot
+ */
+
+:root {
+  font-size: $root-font-size;
+  line-height: $root-line-height;
+}
+
+html {
+  font-family: $base-font-family;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: .5rem;
+}
+
+p {
+  margin-top: 0;
+}
