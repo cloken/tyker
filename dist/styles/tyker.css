@@ -35,3 +35,35 @@ h6 {
 
 p {
   margin-top: 0; }
+
+/**
+ * Layout
+ */
+.l-wrap {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.l-head {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  height: 4rem; }
+
+.l-main {
+  flex: 1;
+  flex-direction: row; }
+
+.l-aside {
+  overflow: auto;
+  width: 14rem; }
+
+.l-article {
+  flex: 1;
+  overflow: auto;
+  position: relative; }
+
+.l-content {
+  flex: 1; }

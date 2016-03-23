@@ -1,0 +1,40 @@
+/**
+ * Layout
+ */
+
+.l-wrap {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.l-head {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  height: $layout-head-height;
+}
+
+.l-main {
+  flex: 1;
+  flex-direction: row;
+}
+
+.l-aside {
+  overflow: auto;
+  width: $layout-aside-width;
+}
+
+.l-article {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+
+.l-content {
+  flex: 1;
+}
+
+// .l-foot {}
