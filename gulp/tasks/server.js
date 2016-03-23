@@ -1,7 +1,7 @@
-var gulp = require('gulp');
-var browserSync = require('browser-sync');
+import gulp from 'gulp';
+import browserSync from 'browser-sync';
 
-gulp.task('server', ['styles'], function () {
+gulp.task('server', ['styles'], () => {
   browserSync({
     server: {
       baseDir: ['./docs', './src', './tmp'],
